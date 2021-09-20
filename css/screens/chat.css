@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-image: url("https://cdn1.dotesports.com/wp-content/uploads/2019/10/14114904/c1.jpg");
   height: 500vh;
 }
 
@@ -8,7 +8,6 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
   box-sizing: border-box;
 }
 
@@ -70,6 +69,7 @@
 .message__info {
   display: flex;
   align-items: flex-end;
+  flex-direction: column;
 }
 
 .message__bubble {

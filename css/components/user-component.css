@@ -1,5 +1,8 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-bottom: 0.1px solid var(--font-color);
 }
 
 .user-component,
@@ -21,9 +24,10 @@
 }
 
 .user-component__subtitle {
-  margin-top: 8px;
-  font-size: 17px;
-  color: rgba(0, 0, 0, 0.5);
+  margin-top: 15px;
+  font-size: 13px;
+  color: var(--font-color);
+  opacity: 0.5;
 }
 
 .user-component__avatar--xl {
@@ -51,4 +55,7 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+.fa-chevron-right {
+  color: var(--font-color);
 }

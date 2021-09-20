@@ -1,22 +1,49 @@
 .recommended-friends {
-  margin: 25px 0px;
-  padding: 25px 0px;
+  margin: 50px 0px;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 .recommended-friends__title {
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--font-color);
 }
 
 .recommended-friends span {
-  margin: 100px 0;
+  margin: 20px 0px;
   display: block;
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--font-color);
 }
-
+.recommended-goods {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  position: relative;
+}
+.recommended-goods__img {
+  width: 280px;
+  height: 170px;
+  padding-right: 30px;
+}
+.recommended-goods__subscription {
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.subscription-title {
+  font-size: 30px;
+}
+.recommended-goods__subscription span {
+  width: 50%
+}
 .open-chat__header {
   display: flex;
   justify-content: space-between;
