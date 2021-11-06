@@ -2,4 +2,9 @@
   --yellow: #fae100;
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --font-color: #CAC4B4;
+  --button-color: #C79A3B;
+  --opacity: 0.3;
+  --background-color: #010A11;
+  --bg-img: url("https://pbs.twimg.com/media/Ey83cBTUYAIM6cc.jpg");
 }

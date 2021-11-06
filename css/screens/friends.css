@@ -9,7 +9,7 @@
 }
 
 #friends-display-link i {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .friends-screen {
@@ -24,9 +24,13 @@
 
 .friends-screen__channel-header {
   margin-bottom: 30px;
+  padding-left: 10px;
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
+}
+#friends-screen__channel-text {
+  color: var(--font-color);
 }
 
 @keyframes hideSplashScreen {
@@ -40,7 +44,8 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-image: url("https://s3-eu-central-1.amazonaws.com/www-staging.esports.com/WP%20Media%20Folder%20-%20esports-com//var/app/current/web/app/uploads/2021/02/Riot-Games-League-of-legends-beginners-guide.jpg");
+  background-size: cover;
   position: absolute;
   height: 100vh;
   width: 100vw;
